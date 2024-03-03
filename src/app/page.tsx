@@ -3,6 +3,7 @@ import WhyChoseUs from "@/components/WhyChoseUs";
 import HeroSection from "@/components/ui/HeroSection";
 import MusicSchoolTestinomials from "@/components/TestinomialCards"
 import UpcomingWebinars from "@/components/UpcomingWebinars";
+import Instructors from "@/components/Instructors";
 
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <WhyChoseUs/>
       <MusicSchoolTestinomials/>
       <UpcomingWebinars/>
+      <Instructors/>
     </main>
   );
 }
