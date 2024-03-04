@@ -4,6 +4,7 @@ import HeroSection from "@/components/ui/HeroSection";
 import MusicSchoolTestinomials from "@/components/TestinomialCards"
 import UpcomingWebinars from "@/components/UpcomingWebinars";
 import Instructors from "@/components/Instructors";
+import Footer from "@/components/Footer";
 
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <MusicSchoolTestinomials/>
       <UpcomingWebinars/>
       <Instructors/>
+      <Footer/>
     </main>
   );
 }
