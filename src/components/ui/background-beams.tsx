@@ -3,6 +3,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { cn } from '@/utils/cn';
 
+//Resolving errors
 export function BackgroundBeamsDemo() {
   return (
     <div className="h-screen bg-neutral-950 relative flex flex-col items-center justify-center antialiased">
